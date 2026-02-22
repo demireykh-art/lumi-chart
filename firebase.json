@@ -4,7 +4,6 @@
     "runtime": "nodejs18",
     "region": "asia-northeast3"
   },
- {
   "hosting": {
     "public": ".",
     "ignore": ["firebase.json", "functions/**", "node_modules/**", ".*"]
@@ -12,8 +11,5 @@
   "firestore": {
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
-  },
-  "functions": {
-    "source": "functions"
   }
 }
